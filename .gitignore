@@ -1,0 +1,5 @@
+build/
+.vscode/
+devel/
+.catkin_workspace
+CMakeLists.bak

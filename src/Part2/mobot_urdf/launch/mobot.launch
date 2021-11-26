@@ -1,0 +1,10 @@
+<launch>
+<!-- Convert an xacro and put on parameter server -->
+<!-- <param name="robot_description" command="$(find xacro)/xacro.py '$(find mobot_urdf)/urdf/mobot.xacro'" /> -->
+<!-- <rosparam file="$(find minimal_robot_description)/control_config/one_dof_ctl_params.yaml" command="load"/> -->
+  <param name="robot_description" 
+     textfile="$(find mobot_urdf)/urdf/mobot.urdf"/>
+
+<!-- Spawn a robot into Gazebo -->
+<node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model mobot" />
+</launch>

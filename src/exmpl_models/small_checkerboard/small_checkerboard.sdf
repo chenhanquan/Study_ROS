@@ -827,6 +827,6 @@
         </material>
       </visual>
 
-     
+    </link> 
   </model>
 </sdf>

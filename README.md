@@ -1,6 +1,8 @@
 # Study_ROS
 
-此项目记录学习ROS的代码，方便代码框架复用
+此项目记录学习ROS的代码，方便代码框架复用。用的是机械工业出版社的《ROS机器人编程原理与应用》，代码是书上的代码例子，但是由于原本代码所用的ROS版本较旧，而且有部分代码有错误，我将书上的代码重新整理了一下进行学习，使用ubuntu20.04 LTS版本以及ROS（noetic）。
+
+书本源码链接：https://github.com/wsnewman/learning_ros
 
 # 大纲
 
@@ -28,3 +30,9 @@ src  所有软件包
 > + example_rviz_marker rviz标志物
 > + example_interactive_marker rviz交互式标志物
 > + example_eigen eigen库使用例子
+
+> Part3 ROS中的感知处理
+> + simple_camera_model 最小相机模型
+> + example_camera_calibration 相机校准例子
+> + lidar_wobbler 扫描雷达和立体相机例子
+> + pcl_utils 点云数据处理 （点云未完成，由于我对点云不是很熟悉，rviz没有显示，我不太会弄）

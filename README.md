@@ -30,9 +30,18 @@ src  所有软件包
 > + example_rviz_marker rviz标志物
 > + example_interactive_marker rviz交互式标志物
 > + example_eigen eigen库使用例子
-
+>
 > Part3 ROS中的感知处理
 > + simple_camera_model 最小相机模型
 > + example_camera_calibration 相机校准例子
 > + lidar_wobbler 扫描雷达和立体相机例子
 > + pcl_utils 点云数据处理 （点云未完成，由于我对点云不是很熟悉，rviz没有显示，我不太会弄）
+>
+> Part4 ROS中的移动机器人
+> + mobot_pub_des_state 生成期望状态
+> + mobot_gazebo_state 从Gazebo获得模型状态
+> + mobot_drifty_odom 里程计
+> + localization_w_gps 混合里程计、GPS和惯性传感器
+> + mobot_nl_steering 非线性转向算法
+> + mpbot_nav_config 路径规划
+> + example_nav_plugin 导航栈例子（编译没有通过）

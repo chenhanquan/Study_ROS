@@ -5,9 +5,9 @@
 
 PLUGINLIB_EXPORT_CLASS(MinimalPlanner, nav_core::BaseLocalPlanner);
 
-// MinimalPlanner::MinimalPlanner(){
-// 	//nothing ot fill in here; "initialize" will do the initializations
-// }
+MinimalPlanner::MinimalPlanner(){
+	//nothing ot fill in here; "initialize" will do the initializations
+}
 
 //put inits here:
 void MinimalPlanner::initialize(std::string name, tf::TransformListener * tf, costmap_2d::Costmap2DROS * costmap_ros){

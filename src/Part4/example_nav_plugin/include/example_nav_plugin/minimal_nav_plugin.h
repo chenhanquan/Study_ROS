@@ -8,7 +8,7 @@
 class MinimalPlanner : public nav_core::BaseLocalPlanner
 {
 public:
-	// MinimalPlanner();
+	MinimalPlanner();
 	//TestPlanner(std::string name, costmap_2d::Costmap2DROS* costmap_ros);
 
 	/** overridden classes from interface nav_core::BaseGlobalPlanner **/
@@ -16,6 +16,8 @@ public:
 	bool isGoalReached();
 	bool setPlan(const std::vector<geometry_msgs::PoseStamped> &plan);
 	bool computeVelocityCommands(geometry_msgs::Twist &cmd_vel);
+
+	~MinimalPlanner();
 
 private:
 	ros::Time tg;

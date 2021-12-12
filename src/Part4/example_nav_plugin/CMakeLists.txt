@@ -121,9 +121,9 @@ include
 )
 
 ## Declare a C++ library
-add_library(minimal_nav_plugin
-  src/minimal_nav_plugin.cpp
-)
+# add_library(minimal_nav_plugin
+#   src/minimal_nav_plugin.cpp
+# )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -144,11 +144,11 @@ add_library(minimal_nav_plugin
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
+# add_dependencies(minimal_nav_plugin ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 ## Specify libraries to link a library or executable target against
-target_link_libraries(minimal_nav_plugin
-  ${catkin_LIBRARIES}
-)
+# target_link_libraries(minimal_nav_plugin
+#   ${catkin_LIBRARIES}
+# )
 
 #############
 ## Install ##

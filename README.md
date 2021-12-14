@@ -45,3 +45,11 @@ src  所有软件包
 > + mobot_nl_steering 非线性转向算法
 > + mpbot_nav_config 路径规划
 > + example_nav_plugin 导航栈例子（编译没有通过）
+>
+> Part5 ROS中的机械臂
+> + example_trajectory 轨迹插值动作服务器
+> + example_controllers 机械臂轨迹控制器
+> + arm7dof 7维度机械臂
+> + rrbot 机械臂正向运动学例子
+> + irb120 irb120机械臂例子
+
